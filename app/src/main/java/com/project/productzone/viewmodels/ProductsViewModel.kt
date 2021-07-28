@@ -1,10 +1,12 @@
-package com.project.productzone
+package com.project.productzone.viewmodels
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.project.productzone.ProductService
+import com.project.productzone.network.ProductsItem
 import kotlinx.coroutines.launch
 
 class ProductsViewModel : ViewModel() {

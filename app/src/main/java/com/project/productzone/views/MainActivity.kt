@@ -1,4 +1,4 @@
-package com.project.productzone
+package com.project.productzone.views
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,10 +8,13 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.project.productzone.R
+import com.project.productzone.adapters.ProductListAdapter
 import com.project.productzone.databinding.ActivityMainBinding
 import com.project.productzone.extensions.Extensions.toast
+import com.project.productzone.network.ProductsItem
 import com.project.productzone.utils.FirebaseUtils
-import com.project.productzone.views.CreateAccountActivity
+import com.project.productzone.viewmodels.ProductsViewModel
 
 class MainActivity : AppCompatActivity(), ProductListAdapter.ProductItemClicked {
 

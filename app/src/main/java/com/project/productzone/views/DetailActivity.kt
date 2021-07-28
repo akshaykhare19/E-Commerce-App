@@ -1,8 +1,9 @@
-package com.project.productzone
+package com.project.productzone.views
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
+import com.project.productzone.R
 import com.project.productzone.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {

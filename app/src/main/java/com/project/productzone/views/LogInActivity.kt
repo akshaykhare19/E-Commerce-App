@@ -4,7 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
-import com.project.productzone.MainActivity
 import com.project.productzone.databinding.ActivityLogInBinding
 import com.project.productzone.extensions.Extensions.toast
 import com.project.productzone.utils.FirebaseUtils.firebaseAuth

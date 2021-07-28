@@ -1,4 +1,4 @@
-package com.project.productzone
+package com.project.productzone.network
 
 
 class Products : ArrayList<ProductsItem>()

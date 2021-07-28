@@ -1,4 +1,4 @@
-package com.project.productzone
+package com.project.productzone.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,6 +6,7 @@ import androidx.lifecycle.LiveData
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.project.productzone.databinding.ListItemBinding
+import com.project.productzone.network.ProductsItem
 
 class ProductListAdapter(
     private val listener: ProductItemClicked,
