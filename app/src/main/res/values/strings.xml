@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Product Zone</string>
+    <string name="create_account">Create Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="question">Already have an account?</string>
+    <string name="log_in">Log In</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="question2">Don\'t have an account?</string>
+    <string name="welcome">Welcome</string>
+    <string name="action_log_out">Action Log Out</string>
+    <string name="price">Price: Rs. %s</string>
+    <string name="category">Category: %s</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="product_id">Product ID: %s</string>
+</resources>
