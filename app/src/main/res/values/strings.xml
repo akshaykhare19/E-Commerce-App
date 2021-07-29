@@ -10,7 +10,7 @@
     <string name="question2">Don\'t have an account?</string>
     <string name="welcome">Welcome</string>
     <string name="action_log_out">Action Log Out</string>
-    <string name="price">Price: Rs. %s</string>
+    <string name="price">Price: $ %s</string>
     <string name="category">Category: %s</string>
     <string name="description">DESCRIPTION</string>
     <string name="product_id">Product ID: %s</string>
